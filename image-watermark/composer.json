@@ -1,0 +1,25 @@
+{
+    "name": "mizanur/image-watermark",
+    "type": "library",
+	"version": "1.0",
+    "description": "Image Watermark tool for PHP",
+    "keywords": ["image","watermark"],
+    "homepage": "https://github.com/mizanur-rahman/image-watermark",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mizanur Rahman",
+			"email" : "mizan3008@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+		"ext-curl": "*"
+    },
+    "autoload": {
+        "psr-0": { "ImageWatermark": "src/" }
+    },
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
